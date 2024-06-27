@@ -35,3 +35,13 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// Download button
+const downloadbtn = document.getElementById("download-btn");
+downloadbtn.addEventListener("click", function () {
+  const link = document.createElement('a');
+  link.href = './assets/Cv/CV.pdf';
+  link.download = 'CV_Santiago_Bedoya.pdf';
+  link.click();
+})
+  

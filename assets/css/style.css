@@ -341,6 +341,27 @@ main {
   border-radius: 20px;
 }
 
+.download-btn {
+  background-color: hsla(240, 1%, 17%, 0.75);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.download-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.download-btn img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
